@@ -19,7 +19,7 @@ const routes: Routes = [
   { path: 'registrate', component: DescubreComponentComponent},
   { path: 'descubre-mas', component: DesubreMasComponent},
   { path: 'bogota-pagina', component: BogotaPaginaComponent},
-  { path: 'cartagena-pagina2', component: CartagenaPaginaComponent},
+  { path: 'cartagena-pagina', component: CartagenaPaginaComponent},
   { path: 'medellin-pagina', component: MedellinPaginaComponent},
   { path: 'manizales-pagina', component: ManizalesComponentComponent},
   { path: 'leticia-pagina', component: LeticiaPaginaComponent},
