@@ -11,6 +11,9 @@
   padding: 202px;
 }
 
+h5 {
+  text-align: center;
+}
 
 .caja {
   transition: all .9s;
@@ -38,4 +41,9 @@
 }
 .caja:hover .card-info {
   top: 100%;
+}
+
+
+.card {
+  border: 2px solid #000;
 }
