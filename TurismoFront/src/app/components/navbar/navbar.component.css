@@ -1,3 +1,10 @@
+@font-face {
+  font-family: "letra1";
+  src: url(../../../assets/types/Invisible-ExtraBold.otf);
+}
+
+
+
 .nv {
   width: 594px;
   margin-left: 1448px;
@@ -31,7 +38,7 @@ display: none;
 }
 
 .font1{
-  font-family: "title";
+  font-family: "letra1";
 }
 
 .fmControll {
@@ -57,6 +64,7 @@ display: none;
   border: none;
   margin-left: 149px;
   width: 290px;
+  font-family: font1;
 }
 
 .boton:after {
