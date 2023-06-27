@@ -1,4 +1,5 @@
 const destino = require("../models/Ciudades")
+const route = require("../routes/routes")
 
 exports.registrarCiudad = async(req, res) => {
     console.log(req.body);
