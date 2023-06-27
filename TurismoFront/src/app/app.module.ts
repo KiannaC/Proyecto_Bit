@@ -9,6 +9,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { HttpClientModule } from '@angular/common/http';
 import { DescubreComponentComponent } from './components/descubre-component/descubre-component.component';
 import { DesubreMasComponent } from './components/desubre-mas/desubre-mas.component';
+import { BogotaPaginaComponent } from './components/bogota-pagina/bogota-pagina.component';
 
 
 
@@ -18,7 +19,8 @@ import { DesubreMasComponent } from './components/desubre-mas/desubre-mas.compon
     EditarProductosComponent,
     InicioComponent,
     NavbarComponent,
-    DescubreComponentComponent
+    DescubreComponentComponent,
+    BogotaPaginaComponent
   ],
   imports: [
     BrowserModule,
