@@ -8,11 +8,7 @@ import { InicioComponent } from './components/inicio/inicio.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { HttpClientModule } from '@angular/common/http';
 import { DescubreComponentComponent } from './components/descubre-component/descubre-component.component';
-<<<<<<< HEAD
 import { DesubreMasComponent } from './components/desubre-mas/desubre-mas.component';
-=======
-import { Error404Component } from './components/error404/error404.component';
->>>>>>> 8ee8f0a19bdb85dd28c6d1f267b7b427c3d66ab1
 
 
 
@@ -22,12 +18,7 @@ import { Error404Component } from './components/error404/error404.component';
     EditarProductosComponent,
     InicioComponent,
     NavbarComponent,
-    DescubreComponentComponent,
-<<<<<<< HEAD
-    DesubreMasComponent
-=======
-    Error404Component
->>>>>>> 8ee8f0a19bdb85dd28c6d1f267b7b427c3d66ab1
+    DescubreComponentComponent
   ],
   imports: [
     BrowserModule,
