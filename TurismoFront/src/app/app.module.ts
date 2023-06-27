@@ -11,6 +11,12 @@ import { DescubreComponentComponent } from './components/descubre-component/desc
 import { DesubreMasComponent } from './components/desubre-mas/desubre-mas.component';
 import { BogotaPaginaComponent } from './components/bogota-pagina/bogota-pagina.component';
 import { DondeDormirComponent } from './components/bogota-pagina/donde-dormir/donde-dormir.component';
+import { MedellinPaginaComponent } from './components/medellin-pagina/medellin-pagina.component';
+import { CartagenaPaginaComponent } from './components/cartagena-pagina/cartagena-pagina.component';
+import { ManizalesComponentComponent } from './components/manizales-component/manizales-component.component';
+import { LeticiaPaginaComponent } from './components/leticia-pagina/leticia-pagina.component';
+import { DondeComerComponent } from './components/bogota-pagina/donde-comer/donde-comer.component';
+import { QueHacerComponent } from './components/bogota-pagina/que-hacer/que-hacer.component';
 
 
 
@@ -22,7 +28,13 @@ import { DondeDormirComponent } from './components/bogota-pagina/donde-dormir/do
     NavbarComponent,
     DescubreComponentComponent,
     BogotaPaginaComponent,
-    DondeDormirComponent
+    DondeDormirComponent,
+    MedellinPaginaComponent,
+    CartagenaPaginaComponent,
+    ManizalesComponentComponent,
+    LeticiaPaginaComponent,
+    DondeComerComponent,
+    QueHacerComponent
   ],
   imports: [
     BrowserModule,
