@@ -10,6 +10,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { DescubreComponentComponent } from './components/descubre-component/descubre-component.component';
 import { DesubreMasComponent } from './components/desubre-mas/desubre-mas.component';
 import { BogotaPaginaComponent } from './components/bogota-pagina/bogota-pagina.component';
+import { DondeDormirComponent } from './components/bogota-pagina/donde-dormir/donde-dormir.component';
 
 
 
@@ -20,7 +21,8 @@ import { BogotaPaginaComponent } from './components/bogota-pagina/bogota-pagina.
     InicioComponent,
     NavbarComponent,
     DescubreComponentComponent,
-    BogotaPaginaComponent
+    BogotaPaginaComponent,
+    DondeDormirComponent
   ],
   imports: [
     BrowserModule,
