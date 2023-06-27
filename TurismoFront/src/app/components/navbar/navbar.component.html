@@ -22,6 +22,9 @@
     <button type="button" class="btn btn-primary btnRegistro" data-bs-toggle="modal" data-bs-target="#exampleModal">
       INGRESA
     </button>
+    <button type="button" class="btn btn-primary btnRegistro" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+      INGRESA
+    </button>
 
 
   </div>
@@ -36,6 +39,59 @@
           <div class="modal-header text-center text-dark">
             <h1 style="margin-left: 110px; letter-spacing: 4px; " class="font1 modal-title text-center text-dark"
               id="exampleModalLabel">INICIA SESIÓN</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+
+
+          <form>
+            <div class="mb-3 font1 fAjustes mt-5 mb-2 me-5 ms-5">
+              <i class="fa-sharp fa-regular fa-envelope fa-xl"></i>
+              <label style="font-size: 25px; margin-left: 50px;" for="exampleInputEmail1" class="form-label text-dark">Correo
+                electrónico</label>
+              <input style="background-color: rgb(255, 255, 255); height: 47px;" type="email"
+                class="fmControll mt-3 form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div style="font-size: 18px; color: rgb(17, 139, 17);" id="e mailHelp" class=" form-text ">La información
+                que nos brindes
+                nunca será compartida.</div>
+            </div>
+            <div class="mb-3  font1 fAjustes fs-4 mt-5 mb-2 me-5 ms-5">
+              <i class="fa-sharp fa-solid fa-lock fa-2xl"></i>
+              <label style="font-size: 25px; margin-left: 50px;" for="exampleInputPassword1"
+                class="form-label text-dark">Contraseña</label>
+              <input type="password" style="background-color: rgb(255, 255, 255); height: 47px;"
+                class=" fmControll form-control mt-3" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3 form-check font1 fAjustes fs-4 mt-5 mb-2 me-5 ms-5">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class=" form-check-label" style="color: rgb(17, 139, 17);" for="exampleCheck1">Recordarme la
+                contraseña</label>
+            </div>
+            <button class="boton mt-5 fs-5 rounded-2">
+              <span>Ingresar</span>
+            </button>
+            <hr class="mt-4" style="color: white;">
+            <div>
+
+              <p class="font1 mt-5 text-center fs-5 textFooter">¿Aún no tienes cuenta? <a id="cerrarModal"
+                  data-bs-dismiss="modal" style="text-decoration: none;" routerLink="registrate" href="#">Crea una
+                  aquí.</a></p>
+            </div>
+          </form>
+
+
+        </div>
+      </div>
+
+  </div>
+</div>
+
+<div class="modal fade " id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog ">
+      <div style="width: 621px; background-color: rgb(235, 234, 234);" class="modal-content  bgModal">
+        <div class="modal-body">
+          <div class="modal-header text-center text-dark">
+            <h1 style="margin-left: 110px; letter-spacing: 4px; " class="font1 modal-title text-center text-dark"
+              id="exampleModalLabel">registrarse</h1>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
 
