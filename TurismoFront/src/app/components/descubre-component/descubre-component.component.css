@@ -44,10 +44,6 @@
   right: 0;
 }
 
-.font1 {
-
-}
-
 .boton:hover::after {
   right: auto;
   left: 0;

@@ -4,6 +4,7 @@ import { DescubreComponentComponent } from './components/descubre-component/desc
 
 import { EditarProductosComponent } from './components/editar-productos/editar-productos.component';
 import { InicioComponent } from './components/inicio/inicio.component';
+import { DesubreMasComponent } from './components/desubre-mas/desubre-mas.component';
 
 
 
@@ -11,6 +12,7 @@ const routes: Routes = [
   { path: '', component: InicioComponent},
   { path: 'editar', component: EditarProductosComponent},
   { path: 'registrate', component: DescubreComponentComponent},
+  { path: 'descubre-mas', component: DesubreMasComponent},
   { path: '**', redirectTo: '', pathMatch: 'full'}
 ];
 

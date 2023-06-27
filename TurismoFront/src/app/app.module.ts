@@ -8,6 +8,7 @@ import { InicioComponent } from './components/inicio/inicio.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { HttpClientModule } from '@angular/common/http';
 import { DescubreComponentComponent } from './components/descubre-component/descubre-component.component';
+import { DesubreMasComponent } from './components/desubre-mas/desubre-mas.component';
 
 
 
@@ -17,7 +18,8 @@ import { DescubreComponentComponent } from './components/descubre-component/desc
     EditarProductosComponent,
     InicioComponent,
     NavbarComponent,
-    DescubreComponentComponent
+    DescubreComponentComponent,
+    DesubreMasComponent
   ],
   imports: [
     BrowserModule,
