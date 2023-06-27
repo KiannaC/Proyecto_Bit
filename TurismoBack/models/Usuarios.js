@@ -8,7 +8,7 @@ const Usuarios = new mongoose.Schema({
     edad: {type: String, select: false},
     telefono: {type: Number, required: false},
     lugar_de_residencia: {type: String, required: false},
-    contraseña: {type: String, required: true},
+    verifique_su_contraseña: {type: String, required: true},
 },
 {
     timestamps: true
