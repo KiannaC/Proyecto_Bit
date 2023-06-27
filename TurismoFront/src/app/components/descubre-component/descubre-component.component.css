@@ -1,0 +1,87 @@
+@font-face{
+  font-family: "title";
+  src:url(../../../assets/types/Invisible-ExtraBold.otf)
+}
+
+.font1 {
+  font-family: "title";
+}
+
+.fmControll:focus{
+  box-shadow: none;
+  border: 2px solid rgb(94, 255, 0);
+}
+
+
+.bgRegistro {
+  background-image: url("../../../assets/img/FONDO-HOJITA.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.boton {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  background: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  box-shadow: 0px 6px 24px 0px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  border: none;
+  margin-left: 166px;
+  width: 290px;
+}
+
+.boton:after {
+  content: " ";
+  width: 0%;
+  height: 100%;
+  background: #5eff00;
+  position: absolute;
+  transition: all 0.4s ease-in-out;
+  right: 0;
+}
+
+.font1 {
+
+}
+
+.boton:hover::after {
+  right: auto;
+  left: 0;
+  width: 100%;
+}
+
+.boton span {
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+  padding: 18px 25px;
+  color: #000000;
+  font-size: 1.125em;
+  font-weight: 700;
+  letter-spacing: 0.3em;
+  z-index: 20;
+  transition: all 0.3s ease-in-out;
+}
+
+.boton:hover span {
+  color: #183153;
+  animation: scaleUp 0.3s ease-in-out;
+}
+
+@keyframes scaleUp {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(0.95);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
