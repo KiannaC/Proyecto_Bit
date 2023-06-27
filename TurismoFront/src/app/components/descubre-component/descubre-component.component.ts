@@ -14,7 +14,13 @@ export class DescubreComponentComponent {
 
   formularioRegistro = this.fb.group ({
     nombre: ['', [Validators.required, Validators.minLength(10)]],
-    apellidos: ['', [Validators.required]]
+    apellidos: ['', [Validators.required, Validators.minLength(20)]],
+    correo: ['', [Validators.required, Validators.email]],
+    edad: ['', [Validators.required]],
+    pais: ['', [Validators.required]],
+    numero: ['', [Validators.required]],
+
+
   })
 
 

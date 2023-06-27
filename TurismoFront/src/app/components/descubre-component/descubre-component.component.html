@@ -18,23 +18,41 @@
           <span *ngIf="this.formularioRegistro.get('nombre')?.errors?.['minlength']">
             (Debe tener como mínimo 10 caracteres)
           </span>
-          <input formControlName="apellidos" type="text" style="height: 60px; letter-spacing: 1px;" class="fs-5 ps-5 fmControll form-control mt-4"
-            placeholder="Apellidos">
+          <input formControlName="apellidos" type="text" style="height: 60px; letter-spacing: 1px;"
+            class="fs-5 ps-5 fmControll form-control mt-4" placeholder="Apellidos">
           <span *ngIf="this.formularioRegistro.get('apellidos')?.errors?.['required']">
             (Los apellidos no pueden quedar vacíos)
           </span>
-          <input type="text" style="height: 60px; letter-spacing: 1px;" class="fs-5 ps-5 fmControll form-control mt-4"
-            placeholder="Correo">
-          <input type="number" style="height: 60px; letter-spacing: 1px;" class="fs-5 ps-5 fmControll form-control mt-4"
-            placeholder="Edad">
-          <input type="text" style="height: 60px; letter-spacing: 1px;" class="fs-5 ps-5 fmControll form-control mt-4"
-            placeholder="País de residencia">
-          <input type="text" style="height: 60px; letter-spacing: 1px;" class="fs-5 ps-5 fmControll form-control mt-4"
-            placeholder="Número de telefono">
-          <input type="text" style="height: 60px; letter-spacing: 1px;" class="fs-5 ps-5 fmControll form-control mt-4"
-            placeholder="Contraseña">
-          <input type="text" style="height: 60px; letter-spacing: 1px;" class="fs-5 ps-5 fmControll form-control mt-4"
-            placeholder="Verifique su contraseña">
+          <span *ngIf="this.formularioRegistro.get('apellidos')?.errors?.['minlength']">
+            (Debe tener como mínimo 20 caracteres)
+          </span>
+          <input formControlName="correo" type="text" style="height: 60px; letter-spacing: 1px;"
+            class="fs-5 ps-5 fmControll form-control mt-4" placeholder="Correo" required>
+          <span *ngIf="this.formularioRegistro.get('correo')?.errors?.['required']">
+            (El correo no puede quedar vacío)
+          </span>
+          <input formControlName="edad" type="number" style="height: 60px; letter-spacing: 1px;"
+            class="fs-5 ps-5 fmControll form-control mt-4" placeholder="Edad" required>
+          <span *ngIf="this.formularioRegistro.get('edad')?.errors?.['required']">
+            (La edad no puede quedar vacía)
+          </span>
+          <input formControlName="pais" type="text" style="height: 60px; letter-spacing: 1px;"
+            class="fs-5 ps-5 fmControll form-control mt-4" placeholder="País de residencia" required>
+          <span *ngIf="this.formularioRegistro.get('edad')?.errors?.['required']">
+            (El país no puede quedar vacío)
+          </span>
+          <input formControlName="numero" type="text" style="height: 60px; letter-spacing: 1px;"
+            class="fs-5 ps-5 fmControll form-control mt-4" placeholder="Número de telefono">
+          <span *ngIf="this.formularioRegistro.get('edad')?.errors?.['required']">
+            (El número no puede quedar vacío)
+          </span>
+          <input formControlName="contraseña" type="password" style="height: 60px; letter-spacing: 1px;"
+            class="fs-5 ps-5 fmControll form-control mt-4" placeholder="Contraseña">
+          <span *ngIf="this.formularioRegistro.get('contraseña')?.errors?.['required']">
+            (El número no puede quedar vacío)
+          </span>
+          <input formControlName="contraseña" type="password" style="height: 60px; letter-spacing: 1px;"
+            class="fs-5 ps-5 fmControll form-control mt-4" placeholder="Verifique su contraseña">
         </div>
         <div>
           <button class="boton mt-5 fs-5 rounded-2">
